@@ -1,0 +1,15 @@
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\bin\Debug\net6.0\15 C#.exe
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\bin\Debug\net6.0\15 C#.deps.json
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\bin\Debug\net6.0\15 C#.runtimeconfig.json
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\bin\Debug\net6.0\15 C#.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\bin\Debug\net6.0\15 C#.pdb
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.csproj.AssemblyReference.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.AssemblyInfoInputs.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.AssemblyInfo.cs
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.csproj.CoreCompileInputs.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\refint\15 C#.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.pdb
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\15 C#.genruntimeconfig.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\obj\Debug\net6.0\ref\15 C#.dll
