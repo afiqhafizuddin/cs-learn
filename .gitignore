@@ -1,3 +1,10 @@
-/bin
-/obj
-/.vs
+# Directories to be ignored
+
+.vs/
+bin/
+obj/
+# ConsoleApp/ConsoleApp/ConsoleApp/.vs/
+# ConsoleApp/ConsoleApp/ConsoleApp/obj/
+# ConsoleApp/ConsoleApp/ConsoleApp/bin/Debug/net6.0/*.dll
+# ConsoleApp/ConsoleApp/ConsoleApp/bin/Debug/net6.0/*.pdb
+ConsoleApp/
