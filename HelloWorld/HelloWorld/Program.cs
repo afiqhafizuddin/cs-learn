@@ -49,7 +49,11 @@ string name = "Bob";
 int message1 = 3;
 double temp = 34.4;
 
-Console.WriteLine("Hello, " + name + "! You have " + message1 + " messages in your box. The temperatuere is " + temp + "celsius.");
+Console.WriteLine("Hello, " + name + "! You have " + message1 + " messages in your box. The temperatuere is " + temp + " celsius.");
+
+// STRING FORMATTING IN C#
+Console.WriteLine("Afiq Hafizuddin Bin Zainal");
+
 
 
 
