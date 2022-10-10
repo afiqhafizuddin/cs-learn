@@ -80,6 +80,36 @@ int decimalQuotient = 7.0m / 5.0m;
 decimal decimalQuotient = 7 / 5;
 */
 
+// Performing addition using literal decimal data
+
+decimal Quotient = (decimal)firstNum / (decimal)secondNum;
+Console.WriteLine(Quotient);
+
+// Three uses, or overloads for the parenthesis operator: 
+// Method invocation, order of operations and type casting 
+
+// To determine remainder after int division 
+
+Console.WriteLine("Modulus of 200 / 5: " + (200 % 5));
+Console.WriteLine("Modulus of 7 / 5: " + (7 %5 ));
+
+// C# follows the same PEMDAS convention except for exponents
+// although there is no exponents operator in C#, can use System.Math.Pow() method, available from .NET Class Library
+
+// to exercise C#'s order of operation
+
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+
+
+
+
+
+
+
 
 
 
