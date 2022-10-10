@@ -105,6 +105,15 @@ Console.WriteLine(value1);
 Console.WriteLine(value2);
 
 
+// Increment and decrement value
+
+int value = 0;
+value = value + 5;
+value += 5;
+
+
+
+
 
 
 
