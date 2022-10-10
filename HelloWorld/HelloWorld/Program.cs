@@ -30,7 +30,7 @@ message = "C# is my favourite language";
 Console.WriteLine(message);
 
 /*
-Notes - in C#, the variable is statically typed by the compiler, regrardless if using the actual data type or
+Notes - in C#, the variable is statically typed by the compiler, regardless if using the actual data type or
 allow the compiler to infer the data. 
 
 Type is locked at the time of declaration, and therefore will never be able to hold values of different data type
@@ -52,7 +52,48 @@ double temp = 34.4;
 Console.WriteLine("Hello, " + name + "! You have " + message1 + " messages in your box. The temperatuere is " + temp + " celsius.");
 
 // STRING FORMATTING IN C#
-Console.WriteLine("Afiq Hafizuddin Bin Zainal");
+/* In C#, escape character sequence starts with backlash "/" and followed by special characters
+ * 
+ * 
+ */
+
+Console.WriteLine("Hello\nWorld!");
+Console.WriteLine("Hello\tWorld!");
+
+
+// to put double quotation inside string
+Console.WriteLine("Hello \"World\"!");
+
+// To display path 
+Console.WriteLine("C:\\source\\repos");
+
+// Creating mockup of command line 
+Console.WriteLine("Generating Invoices for Customer \"ABC\" ....\n");
+Console.WriteLine("Invoice: 1021\t\tCompleted!");
+Console.WriteLine("Invoice: 1022\t\tCompleted!");
+Console.WriteLine("\nOutput Directory:\t");
+
+// Verbatim String Literal 
+
+/*  keep all whitespace and characters without the need to escape the backslash.
+ *  
+ *  
+ */
+
+Console.WriteLine(@"    c:\source\repos
+        (""This is where your code goes"")");
+
+Console.WriteLine(@"c:\source\repos");
+
+
+// Unicode escape characters
+
+Console.WriteLine("This is to test the autosave feature Visual Studio 2022");
+Console.WriteLine("Test again!");
+Console.WriteLine("Test again!");
+Console.WriteLine("Test again!");
+Console.WriteLine("Test again!");
+Console.WriteLine("Test again!");
 
 
 
