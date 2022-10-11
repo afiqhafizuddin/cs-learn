@@ -18,17 +18,17 @@ ulong exampleULong = 18000000000000000000000; // 64-bit unsigned interger type
 ushort exampleUShort = 653535; // 16-bit unsigned interger type
 
 Console.WriteLine(a);                   // interger
-Console.WriteLine(exampleName);         // string
-Console.WriteLine(exampleChar);         // character
-Console.WriteLine(exampleDouble);       // double
-Console.WriteLine(exampleDecimal);      // decimal
-Console.WriteLine(exampleFloat);        // float
-Console.WriteLine(exampleLong);         // long
-Console.WriteLine(exampleSByte);        // byte
-Console.WriteLine(exampleShort);        // short
-Console.WriteLine(exampleUint);         // uint
-Console.WriteLine(exampleULong);        // ulong
-Console.WriteLine(exampleUShort);       // ushort
+//Console.WriteLine(exampleName);         // string
+//Console.WriteLine(exampleChar);         // character
+//Console.WriteLine(exampleDouble);       // double
+//Console.WriteLine(exampleDecimal);      // decimal
+//Console.WriteLine(exampleFloat);        // float
+//Console.WriteLine(exampleLong);         // long
+//Console.WriteLine(exampleSByte);        // byte
+//Console.WriteLine(exampleShort);        // short
+//Console.WriteLine(exampleUint);         // uint
+//Console.WriteLine(exampleULong);        // ulong
+//Console.WriteLine(exampleUShort);       // ushort
 
 
 

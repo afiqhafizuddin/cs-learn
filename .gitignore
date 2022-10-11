@@ -1,10 +1,27 @@
 # Directories to be ignored
 
+# ConsoleApp
 .vs/
-bin/
-obj/
-# ConsoleApp/ConsoleApp/ConsoleApp/.vs/
-# ConsoleApp/ConsoleApp/ConsoleApp/obj/
-# ConsoleApp/ConsoleApp/ConsoleApp/bin/Debug/net6.0/*.dll
-# ConsoleApp/ConsoleApp/ConsoleApp/bin/Debug/net6.0/*.pdb
-ConsoleApp/
+ConsoleApp/.vs/
+ConsoleApp/ConsoleApp/.vs/ConsoleApp/FileContentIndex/
+ConsoleApp/ConsoleApp/.vs/
+ConsoleApp/ConsoleApp/ConsoleApp/.vs/
+ConsoleApp/ConsoleApp/ConsoleApp/obj/
+ConsoleApp/ConsoleApp/ConsoleApp/obj/Release/
+ConsoleApp/ConsoleApp/ConsoleApp/obj/Debug/
+
+# HelloWorld
+HelloWorld/.vs/
+HelloWorld/HelloWorld/bin/
+HelloWorld/HelloWorld/obj/
+
+# MathOperation
+MathOperation/.vs/
+MathOperation/MathOperation/.vs/
+MathOperation/MathOperation/bin/
+MathOperation/MathOperation/obj/
+
+# newConsoleApp
+newConsoleApp/.vs/
+newConsoleApp/bin/
+newConsoleApp/obj/
