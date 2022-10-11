@@ -7,6 +7,8 @@
  *  Temporarily convert one data type into another 
  */
 
+using System.Security.Cryptography;
+
 int firstNum = 12;
 int secondNum = 13;
 
@@ -109,6 +111,10 @@ Console.WriteLine(value2);
 
 int value = 1;
 
+// Operators like +=, -=, *=, ++, and -- are known as compound assignment operators,
+// because they compound some operation in addition to assigning the result to the variable.
+// The += operator is specifically termed the addition assignment operator.
+
 value = value + 1;
 Console.WriteLine("First Increment: " + value);
 
@@ -128,7 +134,47 @@ Console.WriteLine("Second Decrement: " + value);
 value--;
 Console.WriteLine("Third Decrement: " + value);
 
-// Positioning the increment 
+
+// using variable to increment the value
+
+int increment = 10;
+
+value = value += increment;
+Console.WriteLine(value);
+
+// Positioning the increment and decrement operators
+
+// ++value - increment is happened before the retrieval of the value
+// value++ - increment is happened after the retrieval of the value
+// likewise for --value and value--
+
+int testValue = 1;
+testValue++;
+
+Console.WriteLine("First: " + testValue);           // display value in line 152
+Console.WriteLine("Second: " + testValue++);        // display the same as previous line because it has retrieved the value but has not yet increment it
+Console.WriteLine("Third: " + testValue);           // display the incremented value
+Console.WriteLine("Fourth: " + (++testValue));      // incremented the number
+
+// Challenge
+
+int fahrenheit = 94;
+decimal celcius = ((decimal)fahrenheit - 32) * 5 / 9;
+Console.WriteLine($"The temperature is {celcius} Celcius");
+
+// an even accurate way
+
+decimal celcius1 = ((decimal)fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine($"The temperature is {celcius1} Celcius");
+
+
+
+
+
+
+
+
+
 
 
 
