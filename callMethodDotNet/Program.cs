@@ -1,7 +1,7 @@
 ﻿// Call methods from the .NET class library using C#
 
 
-// introduction
+// Introduction
 
 // takes more than just the language itself to build apps
 // need .NET runtime - hosts and manages codes as it executes 
@@ -33,4 +33,34 @@ Console.WriteLine(roll); //
 // Stateless Methods: Does not rely on or referencing or changing any values stores in memory
 // aka Static Methods
 // e.g. Console.WriteLine() doesn't rely on any stored values in memory
+
+// Stateful Methods: built in such a way that they relied on values stored in memory by prev lines of code
+// that have already executed.
+// Stateful (instance) methods keep track of their state in fields, which are variables defined on the class
+// Each new instance of the class gets its own copy of these fields in which to store state
+
+// Creating new instance of a class 
+
+Random newDice = new Random(); // an instance of a class is called an object. Use 'new' operator to create new instance of a class
+ // In above lines, operator 'new' creates new object called dice. 
+
+// 'new' operator does few important things
+
+// 1. Requests an address in the computer memory large enough to store new object based on on the Random class
+// 2. Creates new object and stores it at the memory address
+// 2. Returns the memory address so that it can saved in the 'dice' variable
+
+
+// Recap 
+// To call a methods of class in the .NET Class Library - use format ClassName.MethodName() 
+// the symbol '.' is the member access operator to access a method defined on the class and '()' symbol
+// is the method invocation operators
+
+// Calling stateless methods doesn't require creating new instance of its class 
+// 'new' operator to create an instance and an instance is called object
+
+// Methods that dont return values when they finished - 'Void methods'
+
+
+
 
