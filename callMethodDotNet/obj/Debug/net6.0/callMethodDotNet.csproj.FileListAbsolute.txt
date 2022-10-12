@@ -1,0 +1,15 @@
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\bin\Debug\net6.0\callMethodDotNet.exe
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\bin\Debug\net6.0\callMethodDotNet.deps.json
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\bin\Debug\net6.0\callMethodDotNet.runtimeconfig.json
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\bin\Debug\net6.0\callMethodDotNet.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\bin\Debug\net6.0\callMethodDotNet.pdb
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.csproj.AssemblyReference.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.AssemblyInfoInputs.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.AssemblyInfo.cs
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\refint\callMethodDotNet.dll
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.pdb
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\callMethodDotNet.genruntimeconfig.cache
+C:\Users\Afiq Hafizuddin\OneDrive - Universiti Tenaga Nasional\05 SOFTWARE ENG\15 C#\callMethodDotNet\obj\Debug\net6.0\ref\callMethodDotNet.dll
