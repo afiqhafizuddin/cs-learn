@@ -1,14 +1,12 @@
 # Directories to be ignored
 
-# ConsoleApp
 .vs/
+
+# ConsoleApp
+
 ConsoleApp/.vs/
-ConsoleApp/ConsoleApp/.vs/ConsoleApp/FileContentIndex/
-ConsoleApp/ConsoleApp/.vs/
-ConsoleApp/ConsoleApp/ConsoleApp/.vs/
-ConsoleApp/ConsoleApp/ConsoleApp/obj/
-ConsoleApp/ConsoleApp/ConsoleApp/obj/Release/
-ConsoleApp/ConsoleApp/ConsoleApp/obj/Debug/
+ConsoleApp/bin/
+ConsoleApp/obj/
 
 # HelloWorld
 HelloWorld/.vs/
@@ -25,3 +23,7 @@ MathOperation/MathOperation/obj/
 newConsoleApp/.vs/
 newConsoleApp/bin/
 newConsoleApp/obj/
+
+# callMethodDotNET
+callMethodDotNet/obj/
+callMethodDotNet/bin/
