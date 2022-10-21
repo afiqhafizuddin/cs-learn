@@ -42,7 +42,7 @@ Console.WriteLine(roll); //
 // Creating new instance of a class 
 
 Random newDice = new Random(); // an instance of a class is called an object. Use 'new' operator to create new instance of a class
- // In above lines, operator 'new' creates new object called dice. 
+                               // In above lines, operator 'new' creates new object called dice. 
 
 // 'new' operator does few important things
 
@@ -59,7 +59,44 @@ Random newDice = new Random(); // an instance of a class is called an object. Us
 // Calling stateless methods doesn't require creating new instance of its class 
 // 'new' operator to create an instance and an instance is called object
 
-// Methods that dont return values when they finished - 'Void methods'
+// Methods that dont return values when they finished - 'Void methods' 
+
+// Console.WriteLine("Afiq Hafizuddin"); 
+// Console.WriteLine("I love C#");
+
+// Work with return values and input parameters
+
+// Input Parameters
+
+// Some methods are desiged to accept no input parameters, others are designed to accept input(s)
+
+// When calling methods, separate each input with ',' 
+int _roll = dice.Next(58, 80);
+Console.WriteLine(_roll);
+
+// OVerloaded methods
+
+// Many methods in .NET Class Library have overloaded method signatures
+
+// Console.WriteLine() has 19 different overloaded versions
+
+int number = 7;
+string numText = "seven";
+System.Console.WriteLine(number);
+System.Console.WriteLine();
+System.Console.WriteLine(numText);
+
+
+Random _dice = new Random();
+int roll1 = _dice.Next();
+int roll2 = _dice.Next(101);
+int roll3 = _dice.Next(50, 200);
+
+System.Console.WriteLine("First Roll: " + roll1);
+System.Console.WriteLine("Second Roll: " + roll2);
+System.Console.WriteLine("Third Roll: " + roll3);
+
+
 
 
 
