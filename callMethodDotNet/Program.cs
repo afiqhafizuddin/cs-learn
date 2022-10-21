@@ -96,6 +96,14 @@ System.Console.WriteLine("First Roll: " + roll1);
 System.Console.WriteLine("Second Roll: " + roll2);
 System.Console.WriteLine("Third Roll: " + roll3);
 
+// Challenge
+
+int firstValue = 1489;
+int secondValue = 2853;
+int largerValue;
+
+largerValue =  Math.Max(firstValue, secondValue);
+System.Console.WriteLine(largerValue);
 
 
 
