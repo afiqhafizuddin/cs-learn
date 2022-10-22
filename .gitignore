@@ -1,4 +1,5 @@
-# Directories to be ignored
+#
+Directories to be ignored
 
 .vs/
 
@@ -31,3 +32,4 @@ callMethodDotNet/bin/
 # decisionLogic
 
 decisionLogic/obj/
+decisionLogic/bin/
