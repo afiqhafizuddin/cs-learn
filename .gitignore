@@ -1,10 +1,7 @@
-#
-Directories to be ignored
-
+# Directories to be ignored
 .vs/
 
 # ConsoleApp
-
 ConsoleApp/.vs/
 ConsoleApp/bin/
 ConsoleApp/obj/
@@ -30,7 +27,6 @@ callMethodDotNet/obj/
 callMethodDotNet/bin/
 
 # decisionLogic
-
 decisionLogic/obj/
 decisionLogic/bin/
 
