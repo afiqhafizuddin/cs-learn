@@ -67,8 +67,94 @@ if (message.Contains("fox"))
 // '>=' : "greater than or equal"
 // '<=' : "lesser than or equal"
 
-// Else and else-if statements
+// CHALLENGE
 
+Random challenge = new Random();
+int daysUntilExpiration = challenge.Next(12); 
+// int daysUntilExpiration = 4; // test code
+int discountPercentage = 0;
+
+Console.WriteLine(daysUntilExpiration); // checking
+
+if (daysUntilExpiration <= 10)
+{
+    if ((daysUntilExpiration <= 5) && (daysUntilExpiration >=2)) // if 5 >= days >= 2
+    {
+    Console.WriteLine($"Your subscription will expire in {daysUntilExpiration} days.\nRenew now and save 10%");
+    discountPercentage = 10;
+    Console.WriteLine($"You earned yourself discount value of {discountPercentage}%!");
+
+    }
+    else if (daysUntilExpiration == 1)  // if days == 1
+    {
+    Console.WriteLine("Your subscription expires within a day!\nRenew now and save 20%");
+    discountPercentage = 20;
+    Console.WriteLine($"You earned yourself discount value of {discountPercentage}%!");
+    }
+    else if (daysUntilExpiration == 0) // days == 0 
+    {
+    Console.WriteLine("Your subscription has expired");
+    }
+    else 
+    {
+        Console.WriteLine("Your subscription will expire soon. Renew now!") ;
+    }
+}
+else // if > 10 days
+{
+    // Console.WriteLine($"You still have {daysUntilExpiration} days left in your subscription!");
+    Console.WriteLine();
+}
+
+ 
+/* ANOTHER POSSIBLE SOLUTION
+ 
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
+
+if (daysUntilExpiration == 0)
+{
+    Console.WriteLine("Your subscription has expired.");
+}
+else if (daysUntilExpiration == 1)
+{
+    Console.WriteLine("Your subscription expires within a day!");
+    discountPercentage = 20;
+}
+else if (daysUntilExpiration <= 5)
+{
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
+    discountPercentage = 10;
+}
+else if (daysUntilExpiration <= 10)
+{
+    Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
 
 
 
