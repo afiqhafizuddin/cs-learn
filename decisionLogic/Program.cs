@@ -28,10 +28,9 @@ if (total >= 15)
 {
     Console.WriteLine("You Win!");
 }
-
-if (total < 15)
+else
 {
-    Console.WriteLine("Sorry, You Lose!");
+    Console.WriteLine("Sprry, You Lose!");
 }
 
 // Boolean Expression
@@ -52,6 +51,8 @@ if (message.Contains("fox"))
 // '<'  : "less than" test for value on the left is lesser than value on the right
 // '>=' : "greater than or equal"
 // '<=' : "lesser than or equal"
+
+// Else and else-if statements
 
 
 
