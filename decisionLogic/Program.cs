@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Reflection;
-
-Console.WriteLine("Learning and Using if-else statements in C#");
+﻿Console.WriteLine("Learning and Using if-else statements in C#");
 
 Random dice = new Random();
 
@@ -13,7 +10,21 @@ int total = roll1 + roll2 + roll3;
 
 Console.WriteLine($"Dice Roll: {roll1} + {roll2} + {roll3} = {total}");
 
-if (total > 14)
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    Console.WriteLine("You rolled doubles! +2 bonus to total");
+    total += 2;
+}
+
+if ((roll1 == roll2) && (roll2 == roll3))
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total");
+    total +=6;
+}
+
+
+if (total >= 15)
 {
     Console.WriteLine("You Win!");
 }
@@ -41,6 +52,8 @@ if (message.Contains("fox"))
 // '<'  : "less than" test for value on the left is lesser than value on the right
 // '>=' : "greater than or equal"
 // '<=' : "lesser than or equal"
+
+
 
 
 
