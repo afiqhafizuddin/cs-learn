@@ -33,3 +33,7 @@ callMethodDotNet/bin/
 
 decisionLogic/obj/
 decisionLogic/bin/
+
+# arrayForeachStatement
+arrayForeachStatement/bin/
+arrayForeachStatement/obj/
