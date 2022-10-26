@@ -39,9 +39,49 @@ Console.WriteLine($"2nd Array Third: {fraudulentOrderIDs2[2]}");
 Console.WriteLine($"2nd Array Fourth: {fraudulentOrderIDs2[3]}");
 Console.WriteLine($"2nd Array Fifth: {fraudulentOrderIDs2[4]}");
 
+// Getting the size of an array
 
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders from first array and\n{fraudulentOrderIDs2.Length} fraudulent orders from second array.");
 
+// Foreach statement
+
+// Loopig thru an array using Foreach
+
+int total = 0;
+string[] names = { "Anders Hejlberg", "Bjarne Stratroup", "Brandon Eich", "Guido von Rossum"};
+foreach (string name in names) 
+{   
+    // Console.WriteLine(name);
+    total += 1;
+}
+
+Console.WriteLine(total);
 
 
+int sum = 0;
+int bin = 0; 
+
+int[] inventory = { 200, 450, 650, 580, 700};
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} (Running total: {sum})");
+}
+
+Console.WriteLine($"We have {sum} items in inventory\n");
+
+
+// Challenge 
+Console.WriteLine("// CHALLENGE");
+
+string[] orderID = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+foreach (string order in orderID)
+{
+    // Console.WriteLine(order);
+    if (order.StartsWith("B"))
+    {
+        Console.WriteLine(order);
+    }
+}
 
