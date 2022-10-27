@@ -31,9 +31,8 @@
 4-decisionLogic/bin/
 
 # arrayForeachStatement
-arrayForeachStatement/bin/
-arrayForeachStatement/obj/
+5-arrayForeachStatement/bin/
+5-arrayForeachStatement/obj/
 
 # csharpConventionPractices
-
 6-csharpConventionPractices/obj/
