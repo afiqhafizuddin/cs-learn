@@ -12,9 +12,9 @@
 01-newConsoleApp/obj/
 
 # 00-HelloWorld
-HelloWorld/.vs/
-HelloWorld/HelloWorld/bin/
-HelloWorld/HelloWorld/obj/
+1-HelloWorld/.vs/
+1-HelloWorld/HelloWorld/bin/
+1-HelloWorld/HelloWorld/obj/
 
 # MathOperation
 MathOperation/.vs/
