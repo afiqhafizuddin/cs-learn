@@ -27,8 +27,8 @@
 3-callMethodDotNet/bin/
 
 # decisionLogic
-decisionLogic/obj/
-decisionLogic/bin/
+4-decisionLogic/obj/
+4-decisionLogic/bin/
 
 # arrayForeachStatement
 arrayForeachStatement/bin/
