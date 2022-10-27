@@ -33,3 +33,7 @@
 # arrayForeachStatement
 arrayForeachStatement/bin/
 arrayForeachStatement/obj/
+
+# csharpConventionPractices
+
+6-csharpConventionPractices/obj/
