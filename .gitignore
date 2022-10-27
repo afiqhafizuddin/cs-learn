@@ -17,10 +17,10 @@
 1-HelloWorld/HelloWorld/obj/
 
 # MathOperation
-MathOperation/.vs/
-MathOperation/MathOperation/.vs/
-MathOperation/MathOperation/bin/
-MathOperation/MathOperation/obj/
+2-MathOperation/.vs/
+2-MathOperation/MathOperation/.vs/
+2-MathOperation/MathOperation/bin/
+2-MathOperation/MathOperation/obj/
 
 # callMethodDotNET
 callMethodDotNet/obj/
