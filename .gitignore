@@ -2,11 +2,16 @@
 .vs/
 
 # ConsoleApp
-ConsoleApp/.vs/
-ConsoleApp/bin/
-ConsoleApp/obj/
+00-ConsoleApp/.vs/
+00-ConsoleApp/bin/
+00-ConsoleApp/obj/
 
-# HelloWorld
+# 01-newConsoleApp
+01-newConsoleApp/.vs/
+01-newConsoleApp/bin/
+01-newConsoleApp/obj/
+
+# 00-HelloWorld
 HelloWorld/.vs/
 HelloWorld/HelloWorld/bin/
 HelloWorld/HelloWorld/obj/
@@ -16,11 +21,6 @@ MathOperation/.vs/
 MathOperation/MathOperation/.vs/
 MathOperation/MathOperation/bin/
 MathOperation/MathOperation/obj/
-
-# newConsoleApp
-newConsoleApp/.vs/
-newConsoleApp/bin/
-newConsoleApp/obj/
 
 # callMethodDotNET
 callMethodDotNet/obj/
