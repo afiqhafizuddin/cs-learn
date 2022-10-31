@@ -7,6 +7,7 @@
 // Variable name are case sensitive
 
 using System.Net;
+using System.Net.Http.Headers;
 
 string firstName = "Bob";
 int widgetsPurchased = 7;
@@ -52,5 +53,33 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
         Console.WriteLine("You rolled doubles!");
     }
 }
+
+// Challenge
+
+/*
+   This code reverses a message, counts the number of times 
+   a particular character appears, then prints the results
+   to the console window.
+ */
+
+string str = "The quick brown fox jumps over the lazy dog";
+
+char[] charMessage = str.ToCharArray();
+
+Array.Reverse(charMessage); 
+int x = 0;
+
+foreach (char i in charMessage)
+{
+    if (i == 'o')
+    {
+        x++;
+    }
+}
+string newMessage = new String(charMessage);
+Console.WriteLine(newMessage);
+Console.WriteLine($"'o' appears {x} times");
+// Console.WriteLine(charMessage);
+
 
 
