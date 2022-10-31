@@ -35,4 +35,5 @@
 5-arrayForeachStatement/obj/
 
 # csharpConventionPractices
-6-csharpConventionPractices/obj/
+6-csharpConventionPractices/obj/Debug/
+6-csharpConventionPractices/bin/
