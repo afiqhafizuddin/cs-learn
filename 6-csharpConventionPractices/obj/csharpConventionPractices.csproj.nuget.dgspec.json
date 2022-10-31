@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\csharpConventionPractices\\csharpConventionPractices.csproj": {}
+    "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\6-csharpConventionPractices\\csharpConventionPractices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\csharpConventionPractices\\csharpConventionPractices.csproj": {
+    "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\6-csharpConventionPractices\\csharpConventionPractices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\csharpConventionPractices\\csharpConventionPractices.csproj",
+        "projectUniqueName": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\6-csharpConventionPractices\\csharpConventionPractices.csproj",
         "projectName": "csharpConventionPractices",
-        "projectPath": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\csharpConventionPractices\\csharpConventionPractices.csproj",
+        "projectPath": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\6-csharpConventionPractices\\csharpConventionPractices.csproj",
         "packagesPath": "C:\\Users\\Afiq Hafizuddin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\csharpConventionPractices\\obj\\",
+        "outputPath": "C:\\Users\\Afiq Hafizuddin\\src\\c-sharp\\6-csharpConventionPractices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Afiq Hafizuddin\\AppData\\Roaming\\NuGet\\NuGet.Config",
