@@ -1,6 +1,4 @@
 ﻿// Evaluate Boolean expressions to make decisions in C#
-using System.Diagnostics;
-
 Console.WriteLine("\nStep 1");
 // Step 1: using string equality  operator
 
@@ -47,3 +45,35 @@ Console.WriteLine("\nStep 6");
 // Step 6: Use logical negation operator
 Console.WriteLine(!pangram.Contains("fox"));
 Console.WriteLine(!pangram.Contains("cow"));
+
+// Conditional Operator
+// '?:'
+// The basic form
+// <evaluate this condition> ? <if condition is true, return this value> : <if condition is false, return this value>
+
+Console.WriteLine("\nStep 1 Conditional Operator");
+//Step 1CO
+int saleAmount = 1001;
+int discount = saleAmount > 1000 ? 100 : 50;
+Console.WriteLine($"Discount: {discount}");
+
+Console.WriteLine("\nStep 2 Conditional Operator");
+// Step 2
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+
+Console.WriteLine("\nCHALLENGE");
+// CHALLENGE
+
+Random coin = new Random();
+int result = coin.Next(0, 2); // either 0 and 1
+Console.WriteLine($"{(result == 0 ? "heads": "tails")}");
+
+// skipping the temp variable
+Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
+
+
+
+
+
+
+
