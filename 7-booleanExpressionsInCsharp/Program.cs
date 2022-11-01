@@ -61,8 +61,8 @@ Console.WriteLine("\nStep 2 Conditional Operator");
 // Step 2
 Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
 
-Console.WriteLine("\nCHALLENGE");
-// CHALLENGE
+Console.WriteLine("\nCHALLENGE 1");
+// CHALLENGE 1
 
 Random coin = new Random();
 int result = coin.Next(0, 2); // either 0 and 1
@@ -71,8 +71,43 @@ Console.WriteLine($"{(result == 0 ? "heads": "tails")}");
 // skipping the temp variable
 Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
 
+Console.WriteLine("\nCHALLENGE 2");
+// Challenge 2
 
+// complicated permissions challenge
+string permission = "Admin | Manager";
+int level = 55;
 
+// if block
+if (permission.Contains("Admin"))
+{
+    if (level > 55)
+    {
+        Console.WriteLine("Welcome, Super Admin User");
+    }
+    else
+    {
+        Console.WriteLine("Welcome, Admin User");
+    }
+}
+// else if block
+else if (permission.Contains("Manager"))
+{
+    if (level >= 20)
+    {
+        Console.WriteLine("Contact an admin for access");
+    }
+    else
+    {
+        Console.WriteLine("You do not have sufficient privileges");
+    }
+}
+
+// else block
+else
+{
+    Console.WriteLine("You do not have sufficient privileges");
+}
 
 
 
