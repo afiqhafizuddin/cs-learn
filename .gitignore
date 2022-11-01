@@ -40,4 +40,8 @@
 
 # 7-booleanExpressionsInCsharp
 7-booleanExpressionsInCsharp/obj/
-7-booleanExpressionsInCsharp/bin/
+7-booleanExpressionsInCsharp/bin
+
+# 8-varScopeAndLogic
+8-varScopeAndLogic/bin/
+8-varScopeAndLogic/obj/
