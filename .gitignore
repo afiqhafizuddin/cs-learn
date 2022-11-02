@@ -53,3 +53,7 @@
 # 10-removeCodeBlock
 10-removeCodeBlock/obj/
 10-removeCodeBlock/bin/
+
+# 11-switchCaseInCSharp
+11-switchCaseInCSharp/bin/
+11-switchCaseInCSharp/obj/
