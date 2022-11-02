@@ -49,3 +49,7 @@
 # 9-defineMethodClassesNamespaces
 9-defineMethodClassesNamespaces/obj/
 9-defineMethodClassesNamespaces/bin/
+
+# 10-removeCodeBlock
+10-removeCodeBlock/obj/
+10-removeCodeBlock/bin/
