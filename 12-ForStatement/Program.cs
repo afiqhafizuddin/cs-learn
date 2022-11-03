@@ -20,6 +20,7 @@ for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 dist
     Console.WriteLine(i);
 }
 
+
 int total = 0;
 for (int num = 0; num < 1000; num += 10)
 {
