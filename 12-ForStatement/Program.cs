@@ -37,3 +37,10 @@ for (int j = 100; j >= 0; j--)
 {
     Console.WriteLine(j);
 }
+
+// Step 3: Tinkering with the iterator's pattern
+for (int x = 0; x < 10; x += 2)
+{
+    Console.WriteLine(x);
+}
+
