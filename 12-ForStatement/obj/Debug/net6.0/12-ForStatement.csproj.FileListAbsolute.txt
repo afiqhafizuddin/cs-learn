@@ -1,0 +1,15 @@
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.csproj.AssemblyReference.cache
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.AssemblyInfoInputs.cache
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.AssemblyInfo.cs
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.csproj.CoreCompileInputs.cache
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\bin\Debug\net6.0\12-ForStatement.exe
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\bin\Debug\net6.0\12-ForStatement.deps.json
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\bin\Debug\net6.0\12-ForStatement.runtimeconfig.json
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\bin\Debug\net6.0\12-ForStatement.dll
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\bin\Debug\net6.0\12-ForStatement.pdb
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.dll
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\refint\12-ForStatement.dll
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.pdb
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\12-ForStatement.genruntimeconfig.cache
+C:\Users\Afiq Hafizuddin\src\c-sharp\12-ForStatement\obj\Debug\net6.0\ref\12-ForStatement.dll
