@@ -22,7 +22,18 @@ for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 dist
 
 
 int total = 0;
-for (int num = 0; num < 1000; num += 10)
+for (int num = 0; num < 100; num += 10)
 {
     Console.WriteLine(num);
+}
+
+// Unique qualities of for statement
+// 1. when the number of iterations of a code block is known 
+// 2. allows to control the way in which each iteration is handled
+
+// Step 2: Change the iteration condition
+
+for (int j = 100; j >= 0; j--)
+{
+    Console.WriteLine(j);
 }
