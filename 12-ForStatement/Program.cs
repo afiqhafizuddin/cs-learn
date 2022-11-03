@@ -44,3 +44,9 @@ for (int x = 0; x < 10; x += 2)
     Console.WriteLine(x);
 }
 
+// Step 4: Use break keyword to break the iteration statement
+for (int count= 0; count < 10; count++)
+{
+    Console.WriteLine(count);
+    if (count == 7) break;
+}
