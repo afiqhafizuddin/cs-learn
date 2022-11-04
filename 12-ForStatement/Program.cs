@@ -9,8 +9,6 @@
 
 // Step 1: Basic of For statement
 
-using System.Runtime.ExceptionServices;
-
 for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 distinct parts, separated by semi-colon
     // 1st part: int i = 0; iterator variable
     // 2nd part: i < 10; iterator completion condition
@@ -50,3 +48,12 @@ for (int count= 0; count < 10; count++)
     Console.WriteLine(count);
     if (count == 7) break;
 }
+
+//  Step 5: Loop thru an array
+
+string[] names = { "Alex", "Eddie", "David", "Michael"};
+for (int iterator = names.Length - 1; iterator >= 0; iterator--) // iterates backward and 0-based indexing
+{
+    Console.WriteLine(names[iterator]);
+}
+
