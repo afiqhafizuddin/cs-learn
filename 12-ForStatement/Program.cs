@@ -9,6 +9,8 @@
 
 // Step 1: Basic of For statement
 
+using System.Runtime.ExceptionServices;
+
 for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 distinct parts, separated by semi-colon
     // 1st part: int i = 0; iterator variable
     // 2nd part: i < 10; iterator completion condition
@@ -18,8 +20,6 @@ for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 dist
     Console.WriteLine(i);
 }
 
-
-int total = 0;
 for (int num = 0; num < 100; num += 10)
 {
     Console.WriteLine(num);
@@ -57,3 +57,19 @@ for (int iterator = names.Length - 1; iterator >= 0; iterator--) // iterates bac
     Console.WriteLine(names[iterator]);
 }
 
+
+// Step 6: Limitation of foreach statement
+/*
+foreach (var name in names)
+{
+    if (name == "David") name = "Sammy";
+}
+*/
+
+// Step 7: overccoming the foreach statement using for statement
+
+for (int iterator = 0; iterator < names.Length; iterator++)
+{
+    if (names[iterator] == "David") names[iterator] = "Sammy";
+}
+foreach (var name in names) Console.WriteLine(name);
