@@ -9,7 +9,6 @@
 
 // Step 1: Basic of For statement
 
-using System.Runtime.ExceptionServices;
 
 for (int i = 0; i < 10; i++) // for keyword; set of parenthesis, contains 3 distinct parts, separated by semi-colon
     // 1st part: int i = 0; iterator variable
@@ -73,3 +72,27 @@ for (int iterator = 0; iterator < names.Length; iterator++)
     if (names[iterator] == "David") names[iterator] = "Sammy";
 }
 foreach (var name in names) Console.WriteLine(name);
+
+
+// Challenge: FizzBuzz Challenge
+
+for ( int num = 0; num <= 100; num++)
+{
+    if ((num % 3 == 0) && (num % 5 == 0))      // check for multiple for 3 and 5
+    {
+        Console.WriteLine($"{num} - FizzBuzz");
+    }
+    else if (num % 5 == 0)
+    {
+        Console.WriteLine($"{num} - Buzz");
+    }
+    else if (num % 3 == 0)
+    {
+        Console.WriteLine($"{num} - Fizz");
+    }
+    else
+    {
+        Console.WriteLine(num);
+    }
+}
+ 
