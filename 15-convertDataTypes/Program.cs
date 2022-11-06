@@ -48,4 +48,16 @@ Console.WriteLine(val3);
 int val4 = Convert.ToInt32(1.5m);
 Console.WriteLine(val4);
 
+Console.WriteLine("");
+// TryParse() method; out parameter
+string value = "102";
+int result3 = 0;
+if (int.TryParse(value, out result3)) // 
+{
+    Console.WriteLine($"Measurement: {result3}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement");
+}
 
