@@ -35,4 +35,3 @@ int[] data = new int[5]; // declaring an array of int by using the enew keyword
 string newToProgramming = "Hello, World!";
 Console.WriteLine(newToProgramming);
 
-
