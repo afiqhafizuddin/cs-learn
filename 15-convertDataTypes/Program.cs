@@ -15,4 +15,12 @@ decimal myDecimal = myInt; // data type conversion happens here
 Console.WriteLine($"decimal: {myDecimal}");
 
 
+// narrowing conversion
+
+decimal myDecimal2 = 3.14m;
+Console.WriteLine($"decimal: {myDecimal2}");
+
+int myInt2 = (int)myDecimal2;
+Console.WriteLine($"int: {myInt2}");
+
 
