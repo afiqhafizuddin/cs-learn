@@ -6,5 +6,13 @@ string second = "4";
 string result = first + second;
 Console.WriteLine(result);
 
+// widening conversion
+
+int myInt = 3;
+Console.WriteLine($"int: {myInt}");
+
+decimal myDecimal = myInt; // data type conversion happens here
+Console.WriteLine($"decimal: {myDecimal}");
+
 
 
