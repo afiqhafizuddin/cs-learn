@@ -23,4 +23,29 @@ Console.WriteLine($"decimal: {myDecimal2}");
 int myInt2 = (int)myDecimal2;
 Console.WriteLine($"int: {myInt2}");
 
+// use ToString() to convert string to a number
+
+string first2 = "5";
+string second2 = "7";
+
+int sum = int.Parse(first2) + int.Parse(second2);
+Console.WriteLine(sum);
+
+// use Convert class method
+
+string value1 = "5";
+string value2 = "7";
+
+int result2 = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+Console.WriteLine(result2);
+
+
+// Casting vs. Conversion
+
+int val3 = (int)1.5m;
+Console.WriteLine(val3);
+
+int val4 = Convert.ToInt32(1.5m);
+Console.WriteLine(val4);
+
 
