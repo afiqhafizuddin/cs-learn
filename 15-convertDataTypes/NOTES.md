@@ -132,3 +132,32 @@ Console.WriteLine(value2);
 1
 2
 ```
+
+## **The TryParse() method**
+
+- it attempts to a string into given a numeric data type
+- if successful, it will store the converted value in an out parameter
+- it returns a bool whether the operation is successful or not
+
+### **What is an out parameter**
+
+- Methods can return value or return "void", means return no value.
+- Methods also returns an out parameter, which are defined just like in parameter, but with `out` keyword
+- When calling a method with an `out` parameter, must also use the `out` keyword before the variable.
+
+```cs
+string value = "102";
+int result = 0;
+if (int.TryParse(value, out result))
+{
+    Console.WriteLine($"Measurement: {result}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+```
+
+```cs
+Console.WriteLine($"Measurement: {result}");
+```
