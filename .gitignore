@@ -73,3 +73,7 @@
 # 15-convertDatatypes
 15-convertDatatypes/bin/
 15-convertDatatypes/obj/
+
+# 16-opsOnArray
+16-opsOnArray/obj/
+16-opsOnArray/bin/
