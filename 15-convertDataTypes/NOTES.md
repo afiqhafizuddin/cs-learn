@@ -207,4 +207,47 @@ The `TryParse()` method is a valuable tool.
 - An out parameter provides a secondary means of a method returning a value. In this instance, out paramenter returns the converted value
 - use the keyword `out` when passing in an argument to a method that has defined an out parameter
 
-## **Challenge**
+## **Challenge 1 Solution**
+
+```cs
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+
+// declaration of variables
+decimal numericVal = 0m;
+string textVal = "";
+
+// operation code blocks
+foreach (var val in values)
+{
+    decimal num;
+    if (decimal.TryParse(val, out num))
+    {
+        numericVal += num;
+    }
+    else
+    {
+        textVal += val;
+    }
+}
+
+Console.WriteLine($"Message: {textVal}");
+Console.WriteLine($"Total: {numericVal}");
+```
+
+## **Challenge 2 Solution**
+
+```cs
+// variable declaration
+int val_1 = 12;
+decimal val_2 = 6.2m;
+float val_3 = 4.3f;
+
+int res_1 = val_1 / (int)val_2;
+Console.WriteLine($"Divide val_1 by val_2, display the result as an int: {res_1}");
+
+decimal res_2 = val_2 / (decimal)val_3;
+Console.WriteLine($"Divide val_2 by val_3, display the result as a decimal: {res_2}");
+
+float res_3 = val_3 / (float)val_1;
+Console.WriteLine($"Divide val_3 by val_1, display the result as a float: {res_3}");
+```
