@@ -1,5 +1,7 @@
 ﻿// implicit conversion - type casting
 
+using System.Xml.Schema;
+
 int first = 2;
 string second = "4";
 // int result = first + second;
@@ -83,3 +85,33 @@ if (value3 > 0)
 
 
 // Challenge
+
+string[] values = { "12.3", "45", "ABC", "11", "DEF" }; 
+
+// declaration of variables
+decimal numericVal = 0m;
+string textVal = "";
+
+// operation code blocks
+foreach (var val in values)
+{
+    decimal num;
+    if (decimal.TryParse(val, out num))
+    {
+        numericVal += num;
+    }
+    else
+    {
+        textVal += val;
+    }
+}
+
+Console.WriteLine($"Message: {textVal}"); 
+Console.WriteLine($"Total: {numericVal}"); 
+
+
+
+
+
+
+
