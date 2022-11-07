@@ -156,8 +156,55 @@ else
 {
     Console.WriteLine("Unable to report the measurement.");
 }
+
+// adding new line to demonstrates that the out parameter is reusable
+
+Console.WriteLine($"Measurement (w/ offset): 50 + {result}")
 ```
 
+The int.TryParse() method will return `true` if it successfully converted our string variable value into an int; otherwise, it will return `false`. So, surround the statement in an if statement, and then perform the decision logic accordingly.
+
 ```cs
-Console.WriteLine($"Measurement: {result}");
+if (int.TryParse(value, out result))
 ```
+
+Output of the above code block above
+
+```
+Measurement: 102
+Measurement (w/ offset): 152
+```
+
+### Modifying the string variable to an unparseable value
+
+```cs
+string valUnparse = "bad";
+int value3 = 0;
+if (int.TryParse(valUnparse, out value3))
+{
+    Console.WriteLine($"Measurement: {value3}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+if (value3 > 0)
+    Console.WriteLine($"Measurement (w/ offset): {50 + value3}");
+```
+
+Output of the code block above:
+
+```
+Unable to report the measurement.
+```
+
+### **Recap**
+
+The `TryParse()` method is a valuable tool.
+
+- Use TryParse() when converting a string into a numeric data type
+- TryParse() returns `true` if the conversion is successful, `false` if it's unsuccessful.
+- An out parameter provides a secondary means of a method returning a value. In this instance, out paramenter returns the converted value
+- use the keyword `out` when passing in an argument to a method that has defined an out parameter
+
+## **Challenge**

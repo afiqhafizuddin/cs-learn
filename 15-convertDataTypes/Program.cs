@@ -49,6 +49,8 @@ int val4 = Convert.ToInt32(1.5m);
 Console.WriteLine(val4);
 
 Console.WriteLine("");
+
+
 // TryParse() method; out parameter
 string value = "102";
 int result3 = 0;
@@ -61,3 +63,23 @@ else
     Console.WriteLine("Unable to report the measurement");
 }
 
+Console.WriteLine($"Measurement (w/ offset): {50 + result3}");
+
+Console.WriteLine("");
+// Modify the string variable to an unparseable value
+
+string valUnparse = "bad";
+int value3 = 0;
+if (int.TryParse(valUnparse, out value3))
+{
+    Console.WriteLine($"Measurement: {value3}");
+}
+else
+{
+    Console.WriteLine("Unable to report the measurement.");
+}
+if (value3 > 0)
+    Console.WriteLine($"Measurement (w/ offset): {50 + value3}");
+
+
+// Challenge
