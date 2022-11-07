@@ -269,7 +269,7 @@ Console.WriteLine($"Divide value3 by value1, display the result as a float: {res
 
 ## **Summary**
 
-- <mark>**_implicit conversion_**</mark> relying on the C# compiler to perform widening conversions.
+- **_implicit conversion_** relying on the C# compiler to perform <mark>**_widening conversions_**</mark>.
 - When the C# compiler unable to perform widening conversion we use `ToString()` method to perform explicit conversions.
 - <mark>**_narrowing conversions_**</mark> several different techniques are applicable.
 
