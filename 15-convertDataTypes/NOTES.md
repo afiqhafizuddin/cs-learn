@@ -250,4 +250,29 @@ Console.WriteLine($"Divide val_2 by val_3, display the result as a decimal: {res
 
 float res_3 = val_3 / (float)val_1;
 Console.WriteLine($"Divide val_3 by val_1, display the result as a float: {res_3}");
+
+// Another solution using Convert class
+
+int value1 = 12;
+decimal value2 = 6.2m;
+float value3 = 4.3f;
+
+int result1 = Convert.ToInt32((decimal)value1 / value2);
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+decimal result2 = value2 / (decimal)value3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+float result3 = value3 / value1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
 ```
+
+## **Summary**
+
+- <mark>**_implicit conversion_**</mark> relying on the C# compiler to perform widening conversions.
+- When the C# compiler unable to perform widening conversion we use `ToString()` method to perform explicit conversions.
+- <mark>**_narrowing conversions_**</mark> several different techniques are applicable.
+
+  - use casting operator `()`, when the conversion could be made safely and we are willing to accept the truncations of values after the decimal.
+  - use the `Convert()` method when wanted to perform a conversions and use common rounding rules when performing narrowing conversion.
+  - Use `TryParse()` method when the conversion from `string` to numerical data type could result is data type conversion exception.
