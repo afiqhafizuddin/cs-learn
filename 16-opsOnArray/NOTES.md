@@ -1,6 +1,6 @@
 # **Perform Operations on Arrays**
 
-C# arrays allow to store sequences of values in a single data structure. We can manipulate the order adn contents of the array.
+C# arrays allow to store sequences of values in a single data structure. We can manipulate the order and contents of the array.
 
 - **Learning Objective**
   - Sort & reverse the order of array elements
