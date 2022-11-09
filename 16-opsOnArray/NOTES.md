@@ -56,3 +56,68 @@ Reversed...
 -- A13
 -- A11
 ```
+
+## **`Clear()` and `Reverse()` method**
+
+The `Array.Clear()` method allows us to remove the contents of specific elements in our array, and the `Array.Resize()` method adds or removes elements from our array
+
+- `Clear()` method
+
+```cs
+// Clear() and Resize()
+
+// Clear() method
+// Empty string vs null
+Console.WriteLine($"Before: {pallets[0].ToLower()}");
+Array.Clear(pallets, 0, 2); // clearing elements starting from 0 index and clearing for 2 elements
+if (pallets[0] != null)
+    Console.WriteLine($"After: {pallets[0].ToLower()}\n");
+
+Console.WriteLine($"Clearing 2 .. count: {pallets.Length}");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+
+- Empty string vs null
+
+When you `Array.Clear()`, the elements that were cleared no longer reference a string in memory. In fact, the element points to nothing at all. This is an important distinction that can be difficult to grasp at first
+
+- `Resize()` method
+
+```cs
+// Resize() method
+
+Array.Resize(ref pallets, 6);
+Console.WriteLine($"Resizing 6 .. count: {pallets.Length}");
+
+pallets[4] = "C01";
+pallets[5] = "C02";
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+// Resizing to remove elements
+Console.WriteLine("");
+
+Array.Resize(ref pallets, 3);
+Console.WriteLine($"Resizing 3 ..count: {pallets.Length}");
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+```
+
+## **`Split()`** and **`Join()`**
+
+- string data type's Array methods
+
+```cs
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
+
+```
