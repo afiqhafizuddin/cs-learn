@@ -1,6 +1,4 @@
 ﻿// Compossite Formatting
-using System.Security.Principal;
-
 Console.WriteLine("\nComposite Formatting");
 string first = "Hello";
 string second = "World";
@@ -85,3 +83,49 @@ formattedLine += paymentAmpount.PadLeft(10);
 
 Console.WriteLine("1234567890123456789012345678901234567890");
 Console.WriteLine(formattedLine);
+
+// Challenge -----------------------------------------------------------------------------------------------------
+
+string customerName = "Mr. Jones"; // greetings
+
+
+string currentProduct = "Magic Yield";
+int currentShares = 2975000;
+decimal currentReturn = 0.1275m;
+decimal currentProfit = 55000000.0m;
+
+string newProduct = "Glorious Future";
+decimal newReturn = 0.13125m;
+decimal newProfit = 63000000.0m;
+
+// Your logic here
+Console.WriteLine($"{customerName},");
+Console.WriteLine($"As a customer of our {currentProduct} offering we are excited to to tell you about a new financial product that would dramatically increase your return.");
+Console.WriteLine($"\nCurrenly, you own {currentShares} shares at a return of {currentReturn:P2}.");
+Console.WriteLine($"\nAs our new product, {newProduct} offers a return of {newReturn:P2}. Given your current volume, your potential return would be {newProfit:C}.\n");
+
+Console.WriteLine("Here's a quick comparison:\n");
+
+string comparisonMessage = "";
+
+// Your logic here
+Console.WriteLine("1234567890123456789012345678901234567890123456789012345678901234567890");
+Console.WriteLine(currentProduct + $"{currentReturn:P2}".PadLeft(15) + $"{currentProfit:C}".PadLeft(20));
+Console.WriteLine(newProduct + $"{newReturn:P2}".PadLeft(11) + $"{newProfit:C}".PadLeft(20));
+
+Console.WriteLine("\n" + currentProduct.PadRight(20) + $"{currentReturn:P2}" + $"{currentProfit:C}".PadLeft(20));
+Console.WriteLine(newProduct.PadRight(20) + $"{newReturn:P2}" + $"{newProfit:C}".PadLeft(20));
+
+
+// another solution
+
+comparisonMessage = currentProduct.PadRight(20);
+comparisonMessage += String.Format("{0:P}", currentReturn).PadRight(10);
+comparisonMessage += String.Format("{0:C}", currentProfit).PadRight(20);
+
+comparisonMessage += "\n";
+comparisonMessage += newProduct.PadRight(20);
+comparisonMessage += String.Format("{0:P}", newReturn).PadRight(10);
+comparisonMessage += String.Format("{0:C}", newProfit).PadRight(20);
+
+Console.WriteLine($"\n{comparisonMessage}");
