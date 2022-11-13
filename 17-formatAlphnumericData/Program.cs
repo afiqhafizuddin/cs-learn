@@ -118,14 +118,16 @@ Console.WriteLine(newProduct.PadRight(20) + $"{newReturn:P2}" + $"{newProfit:C}"
 
 
 // another solution
-
-comparisonMessage = currentProduct.PadRight(20);
-comparisonMessage += String.Format("{0:P}", currentReturn).PadRight(10);
+// for current
+comparisonMessage = currentProduct.PadRight(20);  // current product 20 chars padded to the right (count starts from the leftmost char)
+comparisonMessage += String.Format("{0:P}", currentReturn).PadRight(10); // 10 current return padded to the right
 comparisonMessage += String.Format("{0:C}", currentProfit).PadRight(20);
+//comparisonMessage += "Test the third padding";
 
 comparisonMessage += "\n";
 comparisonMessage += newProduct.PadRight(20);
 comparisonMessage += String.Format("{0:P}", newReturn).PadRight(10);
-comparisonMessage += String.Format("{0:C}", newProfit).PadRight(20);
+comparisonMessage += String.Format("{0:C}", newProfit);
+//comparisonMessage += "Test the third padding";
 
 Console.WriteLine($"\n{comparisonMessage}");
