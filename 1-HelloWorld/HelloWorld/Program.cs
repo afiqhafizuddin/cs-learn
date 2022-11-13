@@ -92,10 +92,6 @@ Console.WriteLine(@"c:\source\repos");
 
 Console.WriteLine("This is to test the autosave feature Visual Studio 2022");
 Console.WriteLine("Test again!");
-Console.WriteLine("Test again!");
-Console.WriteLine("Test again!");
-Console.WriteLine("Test again!");
-Console.WriteLine("Test again!");
 
 // String Concatenation
 
