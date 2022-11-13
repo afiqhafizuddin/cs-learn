@@ -1,4 +1,6 @@
 ﻿// Compossite Formatting
+using System.Security.Principal;
+
 Console.WriteLine("\nComposite Formatting");
 string first = "Hello";
 string second = "World";
@@ -44,3 +46,42 @@ Console.WriteLine($"Tax rate: {tax:P2}");
 // 3. Currrency Formatting, :C1, :C3 - number for precision
 // 4. Number Formating, :N, :N3, etc
 // 5. Percentage Formatting, :P, :P3
+
+
+// String interpolation
+Console.WriteLine("\nString Interplation Exercises");
+int invoiceNumber = 1201;
+decimal productMeasurement = 25.4568m;
+decimal subtotal = 2750.00m;
+decimal taxPercentage = .15825m;
+decimal total = 3185.19m;
+
+Console.WriteLine($"Invoice Number: {invoiceNumber}");
+Console.WriteLine($"   Measurement: {productMeasurement:N3} mg");
+Console.WriteLine($"      Subtotal: {subtotal:C}");
+Console.WriteLine($"           Tax: {taxPercentage:P2}");
+Console.WriteLine($"     Total Due: {total:C}");
+
+// padding & allignment
+Console.WriteLine("\nPadding & Alignment");
+
+string input = "Pad this";
+Console.WriteLine(input.PadLeft(12));
+
+// overloaded methods - takes additional args
+
+Console.WriteLine(input.PadLeft(12, '-'));
+Console.WriteLine(input.PadRight(12, '+'));
+
+// working with padded strings
+Console.WriteLine("\nPadded Strings Exercises");
+string paymentID = "789";
+string payeeName = "Mr. Stephen Ortega";
+string paymentAmpount = "RM5,000.00"; 
+
+var formattedLine = paymentID.PadRight(6);
+formattedLine += payeeName.PadRight(24);
+formattedLine += paymentAmpount.PadLeft(10);
+
+Console.WriteLine("1234567890123456789012345678901234567890");
+Console.WriteLine(formattedLine);
