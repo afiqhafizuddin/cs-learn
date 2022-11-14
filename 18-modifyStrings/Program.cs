@@ -118,4 +118,16 @@ while (true)
 
 }
 
+// Use Remove()  and Replace() methods
 
+// Remove()
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20); // starting position and length
+Console.WriteLine(updatedData);
+
+// Replace()
+string newString = "This---is---exam--ple---da--ta";
+newString = newString.Replace("---", " ");
+newString = newString.Replace("--", "");
+
+Console.WriteLine(newString);
