@@ -185,6 +185,87 @@ newString = newString.Replace("---", " ");
 newString = newString.Replace("--", "");
 
 Console.WriteLine(newString);
+```
 
+### <strong>Challenge</strong>
 
+```cs
+// Challenge
+
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+// Your work here
+const string newOpenSpan = "<span>";
+const string newCloseSpan = "</span>";
+
+int firstSpan= input.IndexOf(newOpenSpan);
+int secondSpan = input.IndexOf(newCloseSpan);
+
+firstSpan += newOpenSpan.Length;
+
+newLength = secondSpan - firstSpan;
+quantity = input.Substring(firstSpan, newLength);
+
+const string newOpenDiv = "<div>";
+const string newCloseDiv = "</div>";
+
+int  firstDiv = input.IndexOf(newOpenDiv);
+int secondDiv = input.IndexOf(newCloseDiv);
+
+newLength = secondDiv - firstDiv;  // int can be updated
+output = input.Substring(firstDiv, newLength).Replace("&trade", "&reg");
+
+Console.WriteLine($"Quantity: {quantity}");
+Console.WriteLine($"Output: {output}");
+
+```
+
+Output
+
+```
+Quantity: 5000
+Output: <h2>Widgets &reg;</h2><span>5000</span>
+```
+
+- Another possible solution
+
+```cs
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+// Your work here
+
+const string spanTag = "<span>";
+
+// Extract the quantity
+int quantityStart = input.IndexOf(spanTag);
+int quantityEnd = input.IndexOf("</span>");
+quantityStart += spanTag.Length;
+int quantityLength = quantityEnd - quantityStart;
+quantity = input.Substring(quantityStart, quantityLength);
+
+// Set output to input, replacing the trademark symbol with the registered trademark symbol
+output = input.Replace("&trade;", "&reg;");
+
+// Remove the opening <div> tag
+int divStart = input.IndexOf("<div");
+int divEnd = input.IndexOf(">");
+int divLength = divEnd - divStart;
+divLength += 1;
+output = output.Remove(divStart, divLength);
+
+// Remove the closing <div> tag
+int divCloseStart = output.IndexOf("</div");
+int divCloseEnd = output.IndexOf(">", divCloseStart);
+int divCloseLength = divCloseEnd - divCloseStart;
+divCloseLength += 1;
+output = output.Remove(divCloseStart, divCloseLength);
+
+Console.WriteLine($"Quantity: {quantity}");
+Console.WriteLine($"Output: {output}");
 ```

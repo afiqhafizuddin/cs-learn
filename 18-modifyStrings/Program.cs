@@ -1,5 +1,7 @@
 ﻿// IndexOf() and Substring() helper methods
 
+using System.Security.AccessControl;
+
 string message = "Find what is (inside the parentheses)";
 string newMessage = "What is the value <span>between the tags</span>?";
 
@@ -130,4 +132,36 @@ string newString = "This---is---exam--ple---da--ta";
 newString = newString.Replace("---", " ");
 newString = newString.Replace("--", "");
 
-Console.WriteLine(newString);
+Console.WriteLine(newString + "\n");
+
+
+// Challenge
+
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+// Your work here
+const string newOpenSpan = "<span>";      
+const string newCloseSpan = "</span>";
+
+int firstSpan= input.IndexOf(newOpenSpan);
+int secondSpan = input.IndexOf(newCloseSpan);
+
+firstSpan += newOpenSpan.Length;
+
+newLength = secondSpan - firstSpan; 
+quantity = input.Substring(firstSpan, newLength);
+
+const string newOpenDiv = "<div>";
+const string newCloseDiv = "</div>";
+
+int  firstDiv = input.IndexOf(newOpenDiv);
+int secondDiv = input.IndexOf(newCloseDiv);
+
+newLength = secondDiv - firstDiv;  // int can be updated
+output = input.Substring(firstDiv, newLength).Replace("&trade", "&reg");
+
+Console.WriteLine($"Quantity: {quantity}");
+Console.WriteLine($"Output: {output}");
