@@ -159,7 +159,7 @@
   }
   ```
 
-## <strong>Recap</strong>
+### <strong>Recap</strong>
 
 1. `IndexOf()` gives the first position of a character or a string in a string.
 2. `IndexOf()` returns `-1` if it can't find a match
@@ -168,3 +168,23 @@
 5. `IndexOfAny()` returns the first position of an array of `char`.
 6. There's often more than one way to solve a problem. We used two separate techniques to find all instances of a given character or string.
 7. Avoid hardcoded magic values. Instead, define a const variable. A constant variable's value can't be changed after initialization.
+
+## <strong>Use of `Remove()` & `Replace()`</strong>
+
+```cs
+// Use Remove()  and Replace() methods
+
+// Remove()
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20); // starting position and length
+Console.WriteLine(updatedData);
+
+// Replace()
+string newString = "This---is---exam--ple---da--ta";
+newString = newString.Replace("---", " ");
+newString = newString.Replace("--", "");
+
+Console.WriteLine(newString);
+
+
+```
