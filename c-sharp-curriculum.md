@@ -2,12 +2,13 @@
 
 <summary><strong>Get Comfortable with Visual Studio</strong></summary>
 
-<summary><strong>Common Syntax of C#</strong></summary>
+<summary><strong>Common Syntax of C#</strong>
 
 - Common Variables
 - Conditionals
 - Loops & Sets
 - Methods
+</summary>
 
 <summary><strong>Debugging Skills</strong></summary>
 
