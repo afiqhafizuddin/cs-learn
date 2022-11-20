@@ -85,3 +85,7 @@
 # 18-modifyStrings
 18-modifyStrings/bin/
 18-modifyStrings/obj/
+
+# LeetCodeChallenges
+LeetCodeChallenges/bin/
+LeetCodeChallenges/obj/
