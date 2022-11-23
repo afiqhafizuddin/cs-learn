@@ -1,5 +1,6 @@
 # Directories to be ignored
 .vs/
+.vscode/
 
 # ConsoleApp
 00-ConsoleApp/.vs/
@@ -89,3 +90,7 @@
 # LeetCodeChallenges
 LeetCodeChallenges/bin/
 LeetCodeChallenges/obj/
+
+# Exercises
+Exercises/basic/bin/
+Exercises/basic/obj/
